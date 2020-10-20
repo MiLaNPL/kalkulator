@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Kalkulator</title>
+
+</head>
+
+<body>
+    <h1>Kalkulator - udanych obliczeń!</h1>
+    <section class="container">
+        <input type="text" name="input_liczba" value="0" class="input">
+
+        <input type="button" name="equals" value="=" class="eq" data-action="calculate">
+        <input type="button" name="clear" value="C" class="C" data-action="clear">
+        <input type="button" name="div" value="/" class="div" data-action="divide">
+
+
+        <input type="button" name="jeden" value="1" class="jeden">
+        <input type="button" name="dwa" value="2" class="dwa">
+        <input type="button" name="trzy" value="3" class="trzy">
+        <input type="button" name="sum" value="+" class="plus" data-action="add">
+
+        <input type="button" name="cztery" value="4" class="cztery">
+        <input type="button" name="piec" value="5" class="piec">
+        <input type="button" name="szesc" value="6" class="szesc">
+        <input type="button" name="minus" value="-" data-action="minus" class="minus">
+
+        <input type="button" name="siedem" value="7" class="siedem">
+        <input type="button" name="osiem" value="8" class="osiem">
+        <input type="button" name="dziewiec" value="9" class="dziewiec">
+        <input type="button" name="dot" value="." class="dot" data-action="decimal">
+
+        <input type="button" name="zero" value="0" class="zero">
+        <input type="button" name="razy" value="*" class="multiply" data-action="multiply">
+    </section>
+
+    <script src="./js/script.js">
+    </script>
+</body>
+
+</html>

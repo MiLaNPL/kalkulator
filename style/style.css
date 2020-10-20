@@ -1,0 +1,105 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    grid-template-areas: "in in in in""eq eq C div" "jed dwa trzy plus" "czter pinc szesc minus" "siedem osiem dziewiec kropka" " zer zer zer razy";
+}
+
+input {
+    border: black solid 3px;
+    background-color: lightgreen;
+    font-size: 40px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:active {
+    background-color: green;
+}
+
+.input {
+    grid-area: in;
+    background-color: white;
+}
+
+.eq {
+    grid-area: eq;
+}
+
+.C {
+    grid-area: C;
+}
+
+.div {
+    grid-area: div;
+}
+
+.jeden {
+    grid-area: jed;
+}
+
+.dwa {
+    grid-area: dwa;
+}
+
+.trzy {
+    grid-area: trzy;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.cztery {
+    grid-area: czter;
+}
+
+.piec {
+    grid-area: pinc;
+}
+
+.szesc {
+    grid-area: szesc;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.siedem {
+    grid-area: siedem;
+}
+
+.osiem {
+    grid-area: osiem;
+}
+
+.dziewiec {
+    grid-area: dziewiec;
+}
+
+.dot {
+    grid-area: kropka;
+}
+
+.zero {
+    grid-area: zer;
+}
+
+.multiply {
+    grid-area: razy;
+}
